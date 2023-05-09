@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PROIECTModelStoreContainer" CdmEntityContainer="PROIECTEntities">
+    <EntitySetMapping Name="melodies">
+      <EntityTypeMapping TypeName="PROIECTModel.melodie">
+        <MappingFragment StoreEntitySet="melodie">
+          <ScalarProperty Name="CodM" ColumnName="CodM" />
+          <ScalarProperty Name="Nume_Melodie" ColumnName="Nume_Melodie" />
+          <ScalarProperty Name="Nume_Artist1" ColumnName="Nume_Artist1" />
+          <ScalarProperty Name="Nume_Artist2" ColumnName="Nume_Artist2" />
+          <ScalarProperty Name="Nume_Artist3" ColumnName="Nume_Artist3" />
+          <ScalarProperty Name="Gen" ColumnName="Gen" />
+          <ScalarProperty Name="Link" ColumnName="Link" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
